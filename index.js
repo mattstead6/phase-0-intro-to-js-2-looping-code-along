@@ -1,5 +1,85 @@
 // // Code your solutions in this file
 
+
+for (let age = 30; age < 40; age++){
+    console.log(`I'm ${age} years old. Happy bithday to me!`);
+}
+
+
+function writeCards(namesArray, eventName){
+    let newArray = [];
+    for (let i = 0; i < namesArray.length; i++){
+        newArray = [...newArray, `Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`];
+    } return newArray;
+    }
+
+
+// function countDown(integer){
+//     for (let i = integer; i >= 0; i--){
+//         console.log(integer)
+//     }
+// }
+
+function countDown(integer){
+    while (integer >= 0){
+        console.log(integer);
+        integer--;
+} 
+return integer
+}
+
+
+
+// function countDown(numb){
+  
+//     while (numb >= 0){
+//         console.log(numb);
+//         numb--;
+//     }
+//     // console.log(numb);
+// }
+
+
+
+
+
+
+
+
+// function writeCards(namesArray, eventName){
+//     let newArray = [];
+//     for (let i = 0; i < namesArray.length; i++){
+//     newArray = [...newArray, `Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`];
+// } return newArray;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // for (let age = 30; age < 40; age++){
 //     console.log(`I'm ${age} years old. Happy birthday to me!`);
     
@@ -18,21 +98,21 @@
 // wrapGifts(gifts);
 
 
-function writeCards(namesArray, eventName){
-    let newArray = [];
-    for (let i = 0; i < namesArray.length; i++){
-    newArray = [...newArray, `Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`];
-} return newArray;
-}
+// function writeCards(namesArray, eventName){
+//     let newArray = [];
+//     for (let i = 0; i < namesArray.length; i++){
+//     newArray = [...newArray, `Thank you, ${namesArray[i]}, for the wonderful ${eventName} gift!`];
+// } return newArray;
+// }
 
-function countDown(numb){
+// function countDown(numb){
   
-    while (numb >= 0){
-        console.log(numb);
-        numb--;
-    }
-    // console.log(numb);
-}
+//     while (numb >= 0){
+//         console.log(numb);
+//         numb--;
+//     }
+//     // console.log(numb);
+// }
 
 
 
